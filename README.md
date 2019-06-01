@@ -4,7 +4,13 @@ Dick Grune's software and text similarity tester [SIM](https://dickgrune.com/Pro
 
 * [`paper.pdf`](project/paper.pdf) - a paper about the similarity tester,
 * [`sim.pdf`](project/sim.pdf) - Unix-style manual page,
-* [`TechnReport`](project/TechnReport) - a technical report about the internal workings of the program. 
+* [`TechnReport`](project/TechnReport) - a technical report about the internal workings of the program.
+
+Debian extra packages:
+
+```
+flex bison
+```
 
 ```
 #	This file is part of the software similarity tester SIM.

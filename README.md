@@ -2,9 +2,9 @@
 
 Dick Grune's software and text similarity tester [SIM](https://dickgrune.com/Programs/similarity_tester/) v3.0.2
 
-* [`paper.pdf`](paper.pdf) - a paper about the similarity tester,
-* [`sim.pdf`](sim.pdf) - Unix-style manual page,
-* [technical report](https://dickgrune.com/Programs/similarity_tester/TechnReport) about the internal workings of the program. 
+* [`paper.pdf`](project/paper.pdf) - a paper about the similarity tester,
+* [`sim.pdf`](project/sim.pdf) - Unix-style manual page,
+* [`TechnReport`](project/TechnReport) - a technical report about the internal workings of the program. 
 
 ```
 #	This file is part of the software similarity tester SIM.

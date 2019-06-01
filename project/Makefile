@@ -41,7 +41,7 @@ SYSTEM =	UNIX
 SUBSYSTEM =	SOLARIS
 
 # Locations
-DIR =		/home/dick
+DIR =		$(HOME)
 BINDIR =	$(DIR)/bin.`$(DIR)/bin/arch`
 MAN1DIR =	$(DIR)/man/man1
 
@@ -55,26 +55,26 @@ ZIP =		zip -o
 # File names
 NULLFILE =	/dev/null
 
-################################################################
-# For MSDOS + MinGW
-
-SYSTEM =	MSDOS
-SUBSYSTEM =	MinGW
-
-# Locations
-DIR =		C:/BIN
-BINDIR =	C:/BIN
-MAN1DIR =	C:/BIN
-
-# File names
-NULLFILE =	nul
-
-# Commands (cp required, since xcopy cannot handle forward slashes)
-COPY =		cp -p
-EXE =		.exe
-LEX =		flex
-LN =		ln
-ZIP =		zip -o
+#################################################################
+## For MSDOS + MinGW
+#
+#SYSTEM =	MSDOS
+#SUBSYSTEM =	MinGW
+#
+## Locations
+#DIR =		C:/BIN
+#BINDIR =	C:/BIN
+#MAN1DIR =	C:/BIN
+#
+## File names
+#NULLFILE =	nul
+#
+## Commands (cp required, since xcopy cannot handle forward slashes)
+#COPY =		cp -p
+#EXE =		.exe
+#LEX =		flex
+#LN =		ln
+#ZIP =		zip -o
 
 ################################################################
 # General, C compilation:

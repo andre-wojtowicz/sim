@@ -12,6 +12,8 @@ Debian extra packages:
 flex bison
 ```
 
+## README
+
 ```
 #	This file is part of the software similarity tester SIM.
 #	Written by Dick Grune, Vrije Universiteit, Amsterdam.

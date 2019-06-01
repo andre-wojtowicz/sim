@@ -1,12 +1,3 @@
-# SIM
-
-Dick Grune's software and text similarity tester [SIM](https://dickgrune.com/Programs/similarity_tester/) v3.0.2
-
-* [`paper.pdf`](blob/master/paper.pdf) - a paper about the similarity tester,
-* [`sim.pdf`](blob/master/sim.pdf) - Unix-style manual page,
-* [technical report](https://dickgrune.com/Programs/similarity_tester/TechnReport) about the internal workings of the program. 
-
-```
 #	This file is part of the software similarity tester SIM.
 #	Written by Dick Grune, Vrije Universiteit, Amsterdam.
 #	$Id: README,v 2.23 2017-12-15 17:15:21 dick Exp $
@@ -76,4 +67,3 @@ the program expects each token to be a 16-bit character.
                 Dick Grune
                 email:	dick@dickgrune.com
                 web:	http://www.dickgrune.com
-```

@@ -12,6 +12,10 @@ Debian extra packages:
 flex bison
 ```
 
+## Binaries
+
+Download from [releases](https://github.com/andre-wojtowicz/sim/releases).
+
 ## README
 
 ```
